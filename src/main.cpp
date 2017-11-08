@@ -467,7 +467,7 @@ int main(int argc, char *argv[]) {
 
     if (argc != 4) {
         std::cerr
-                << "Please enter exactly four arguments: Videoid, iteration, number of clients and network_interface"
+                << "Please enter exactly three arguments: replication, number of clients and network interface"
                 << std::endl;
         return 0;
     }
