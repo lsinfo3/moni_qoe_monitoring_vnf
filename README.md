@@ -1,9 +1,9 @@
 # QoE Monitoring VNF for HTTP Adaptive Video Streaming
 
-<b> QoE Monitoring with VNFs in the Cloud </b>
+<b> QoE Monitoring with VNFs in the Cloud </b> <br />
 The VNF QoE monitoring is a plain software that exploits a C++ library, namely <i>libtins</i> to capture the video flows at network interface. The captured packets are then parsed to feed all necessary information for the video buffer estimation algorithm, such as IP address, TCP header and the payload of application layer protocols.
 
-<b> Sniffing task required: </b> <i> libtins-master </i>
+<b> Sniffing task required: </b> <i> libtins-master </i> <br />
 
 libtins is a high-level, multiplatform C++ network packet sniffing and 
 crafting library. Its main purpose is to provide the C++ developer an easy, efficient, 
@@ -26,15 +26,15 @@ In order to compile the funtion, execute: <br />
 mkdir build <br />
 cd build <br />
 
-<b> Configure the function. Add any relevant configuration flags
+<b> Configure the function. Add any relevant configuration flags </b> <br />
 cmake .. <br />
 
 <b> Compile! </b> <br />
 make
 
 <b> Running sniffing tests </b> <br />
-You would need root privilege to run the function
-sudo ./live_moni [replication] [number_of_clients] [Ethernet_port]
+You would need root privilege to run the function <br />
+sudo ./live_moni [replication] [number_of_clients] [Ethernet_port] <br />
 
 <b> References </b> <br />
 Please refer to following publication for more details:
