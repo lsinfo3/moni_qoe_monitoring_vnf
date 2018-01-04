@@ -2,7 +2,7 @@
 
 <b> QoE Monitoring with VNFs in the Cloud </b>
 
-# Required: <i> libtins-master </i>
+<b> Required: </b> <i> libtins-master </i>
 
 libtins is a high-level, multiplatform C++ network packet sniffing and 
 crafting library. Its main purpose is to provide the C++ developer an easy, efficient, 
@@ -13,7 +13,7 @@ library, please visit:
 
 http://libtins.github.io/
 
-# Compiling 
+<b> Compiling </b>
 
 [libtins](http://libtins.github.io/) depends on 
 [libpcap](http://www.tcpdump.org/) and 
@@ -21,19 +21,20 @@ http://libtins.github.io/
 
 In order to compile the funtion, execute:
 
-# Create the build directory
+<b> Create the build directory </b>
 mkdir build <br />
 cd build <br />
 
-# Configure the function. Add any relevant configuration flags
+<b> Configure the function. Add any relevant configuration flags
 cmake .. <br />
 
-# Compile!
+<b> Compile! </b>
 make
 
-# Running tests
+<b> Running tests </b>
+You would need root privilege to run the function
 sudo ./live_moni [replication] [number_of_clients] [Ethernet_port]
 
-# Homepage
+<b> Homepage </b>
 <a href = "https://go.uniwue.de/qoevnf"> https://go.uniwue.de/qoevnf </a>
 
